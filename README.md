@@ -18,3 +18,7 @@ loca.ipynb :
 
 ## Dataset
 Netflix Prize dataset (~77M ratings). Not included due to size.
+
+
+PS: To get the saved model and saved datasets: https://drive.google.com/drive/u/1/folders/0ADe1Vi-pe2lmUk9PVA
+However it can't generate access for everyone because it's a shared drive, so access i can give
