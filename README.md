@@ -1,14 +1,13 @@
 # Netflix Recommendation System
 
+WALS+BPR:
 Two-stage collaborative filtering pipeline:
 - **Stage 1**: WALS (Weighted Alternating Least Squares) — retrieval & rating prediction
 - **Stage 2**: BPR (Bayesian Personalised Ranking) — reranking
 
-## Results
-| Model | RMSE | MAP@10 |
-|-------|------|--------|
-| WALS | ~0.97 | 0.0184 |
-| WALS + BPR (N=2000) | — | **0.0482** |
+loca.ipynb :
+- **Stage 1**: Two tower — retrieval & rating prediction
+- **Stage 2**: LightGBM — reranking
 
 ## Files
 - `train_wals.py` — WALS training script
